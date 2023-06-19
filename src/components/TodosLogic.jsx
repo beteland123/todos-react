@@ -23,14 +23,12 @@ const TodosLogic = () =>{
     }
   ]);
   const delTodo=(id)=>{
-     return(
-      [
-        ...todos.filter((todo)=>{
-          return todo.id !== id
-        })
-      ]
-     )
-  }
+    setTodos([
+      ...todos.filter((todo) => {
+        return todo.id !== id;
+      }),
+    ]);
+  };
    const addTodoItem=(title) =>{
     const newTodo = {
       id: uuidv4(),
