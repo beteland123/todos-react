@@ -4,10 +4,13 @@ import '../todoapp.css'
 
 const TodoApp = () =>{
     return(
-    <div className='container'>
-       <Header/>
-       <TodosLogic/>
-    </div>  
+        <div className="wrapper">
+          <div className="todos">
+            <Header/>
+            <TodosLogic/>
+          </div>
+        </div>
+      
     )
    
 }
