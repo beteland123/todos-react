@@ -11,7 +11,7 @@ const Header = ()=> {
      <header
      style={headerStyle} className={styles.header}>
         <h1> Todo</h1>
-        <p>itmes will presist in localstrage</p>
+        <p>Items will persist in local storage</p>
     </header>
   )
    
